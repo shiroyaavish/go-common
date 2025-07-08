@@ -2,8 +2,8 @@ package rabbit
 
 import (
 	"encoding/json"
-	"github.com/IntelXLabs-LLC/go-common/logger"
 	amqp "github.com/rabbitmq/amqp091-go"
+	"github.com/shiroyaavish/go-common/logger"
 )
 
 type ListenerFunc[B any] func(body *B) error

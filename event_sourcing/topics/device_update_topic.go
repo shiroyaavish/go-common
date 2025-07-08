@@ -2,8 +2,8 @@ package topics
 
 import (
 	"encoding/json"
-	"github.com/IntelXLabs-LLC/go-common/datatypes"
 	"github.com/google/uuid"
+	"github.com/shiroyaavish/go-common/datatypes"
 	"gorm.io/gorm"
 	"time"
 )

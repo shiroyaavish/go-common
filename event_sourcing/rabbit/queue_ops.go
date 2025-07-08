@@ -2,8 +2,8 @@ package rabbit
 
 import (
 	"errors"
-	"github.com/IntelXLabs-LLC/go-common/logger"
 	amqp "github.com/rabbitmq/amqp091-go"
+	"github.com/shiroyaavish/go-common/logger"
 )
 
 func (c *Client) createQueue(topic string) (*amqp.Channel, error) {

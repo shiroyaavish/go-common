@@ -1,8 +1,8 @@
 package go_common
 
 import (
-	"github.com/IntelXLabs-LLC/go-common/config"
-	"github.com/IntelXLabs-LLC/go-common/logger"
+	"github.com/shiroyaavish/go-common/config"
+	"github.com/shiroyaavish/go-common/logger"
 	"os"
 	"os/signal"
 	"syscall"

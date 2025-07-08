@@ -5,7 +5,7 @@ import (
 	"crypto/cipher"
 	"crypto/rand"
 	"fmt"
-	"github.com/IntelXLabs-LLC/go-common/codecs"
+	"github.com/shiroyaavish/go-common/codecs"
 	"io"
 )
 

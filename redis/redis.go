@@ -2,8 +2,8 @@ package redis
 
 import (
 	"context"
-	"github.com/IntelXLabs-LLC/go-common/config"
 	"github.com/redis/go-redis/v9"
+	"github.com/shiroyaavish/go-common/config"
 )
 
 var ctx = context.Background()

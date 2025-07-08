@@ -1,11 +1,11 @@
 package common
 
 import (
-	"github.com/IntelXLabs-LLC/go-common/config"
-	"github.com/IntelXLabs-LLC/go-common/errors/api_errors"
 	"github.com/gofiber/fiber/v2"
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/google/uuid"
+	"github.com/shiroyaavish/go-common/config"
+	"github.com/shiroyaavish/go-common/errors/api_errors"
 	"strings"
 )
 

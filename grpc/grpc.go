@@ -3,7 +3,7 @@ package grpc
 import (
 	"context"
 	"fmt"
-	"github.com/IntelXLabs-LLC/go-common/logger"
+	"github.com/shiroyaavish/go-common/logger"
 	"net"
 
 	"github.com/go-redis/redis/v8"

@@ -2,14 +2,14 @@ package db
 
 import (
 	"fmt"
-	logger_pkg "github.com/IntelXLabs-LLC/go-common/logger"
+	logger_pkg "github.com/shiroyaavish/go-common/logger"
 	"gorm.io/gorm/logger"
 	"log"
 	"os"
 	"time"
 
-	"github.com/IntelXLabs-LLC/go-common/config"
 	_ "github.com/lib/pq"
+	"github.com/shiroyaavish/go-common/config"
 	"gorm.io/driver/postgres"
 	gorm "gorm.io/gorm"
 )

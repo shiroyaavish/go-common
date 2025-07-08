@@ -2,8 +2,8 @@ package rabbit
 
 import (
 	"fmt"
-	"github.com/IntelXLabs-LLC/go-common/config"
 	amqp "github.com/rabbitmq/amqp091-go"
+	"github.com/shiroyaavish/go-common/config"
 	"net/url"
 )
 

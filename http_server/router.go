@@ -7,11 +7,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/IntelXLabs-LLC/go-common/config"
 	"github.com/gofiber/fiber/v2/middleware/compress"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 	fiberRecover "github.com/gofiber/fiber/v2/middleware/recover"
+	"github.com/shiroyaavish/go-common/config"
 )
 
 type Router struct {

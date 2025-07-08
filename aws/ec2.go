@@ -1,10 +1,10 @@
 package aws
 
 import (
-	"github.com/IntelXLabs-LLC/go-common/errors"
-	"github.com/IntelXLabs-LLC/go-common/logger"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ec2"
+	"github.com/shiroyaavish/go-common/errors"
+	"github.com/shiroyaavish/go-common/logger"
 	"time"
 )
 

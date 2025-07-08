@@ -1,8 +1,8 @@
 package delete_svc
 
 import (
-	"github.com/IntelXLabs-LLC/go-common/models/wrappers"
-	"github.com/IntelXLabs-LLC/go-common/models/wrappers/vpn_operations/delete_svc/proto"
+	"github.com/shiroyaavish/go-common/models/wrappers"
+	"github.com/shiroyaavish/go-common/models/wrappers/vpn_operations/delete_svc/proto"
 )
 
 type DeleteClientRequest struct {

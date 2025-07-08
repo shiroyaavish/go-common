@@ -1,6 +1,6 @@
 package db_errors
 
-import "github.com/IntelXLabs-LLC/go-common/errors"
+import "github.com/shiroyaavish/go-common/errors"
 
 var (
 	// ErrAlreadyExists is a variable of type *Error that represents an error indicating that data already exists.

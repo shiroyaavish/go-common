@@ -3,8 +3,8 @@ package logger
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/IntelXLabs-LLC/go-common/utils"
 	"github.com/rs/zerolog"
+	"github.com/shiroyaavish/go-common/utils"
 	"os"
 	"strings"
 )

@@ -2,8 +2,8 @@ package fiber_cache
 
 import (
 	"errors"
-	"github.com/IntelXLabs-LLC/go-common/logger"
 	"github.com/gofiber/fiber/v2"
+	"github.com/shiroyaavish/go-common/logger"
 )
 
 // InitialCacheOperation checks the client cache for data based on the provided options.

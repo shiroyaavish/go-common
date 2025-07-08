@@ -3,7 +3,7 @@ package config
 import (
 	"errors"
 	"fmt"
-	"github.com/IntelXLabs-LLC/go-common/utils"
+	"github.com/shiroyaavish/go-common/utils"
 	"reflect"
 	"strconv"
 	"strings"

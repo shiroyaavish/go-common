@@ -2,11 +2,11 @@ package http_server
 
 import (
 	"errors"
-	"github.com/IntelXLabs-LLC/go-common/common"
-	"github.com/IntelXLabs-LLC/go-common/errors/api_errors"
-	"github.com/IntelXLabs-LLC/go-common/utils"
 	"github.com/gofiber/fiber/v2"
 	"github.com/google/uuid"
+	"github.com/shiroyaavish/go-common/common"
+	"github.com/shiroyaavish/go-common/errors/api_errors"
+	"github.com/shiroyaavish/go-common/utils"
 	"log"
 	"os"
 	"reflect"

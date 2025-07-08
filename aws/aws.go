@@ -1,10 +1,10 @@
 package aws
 
 import (
-	"github.com/IntelXLabs-LLC/go-common/config"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
+	"github.com/shiroyaavish/go-common/config"
 )
 
 // AWS is the main structure that keeps the session.Session from aws-sdk-go

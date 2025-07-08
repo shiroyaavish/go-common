@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	"github.com/IntelXLabs-LLC/go-common/logger"
 	"github.com/go-redis/redis/v8"
+	"github.com/shiroyaavish/go-common/logger"
 	"time"
 )
 

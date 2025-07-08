@@ -2,10 +2,10 @@ package delete_svc
 
 import (
 	"context"
-	"github.com/IntelXLabs-LLC/go-common/config"
-	"github.com/IntelXLabs-LLC/go-common/logger"
-	"github.com/IntelXLabs-LLC/go-common/models/wrappers"
-	"github.com/IntelXLabs-LLC/go-common/models/wrappers/vpn_operations/delete_svc/proto"
+	"github.com/shiroyaavish/go-common/config"
+	"github.com/shiroyaavish/go-common/logger"
+	"github.com/shiroyaavish/go-common/models/wrappers"
+	"github.com/shiroyaavish/go-common/models/wrappers/vpn_operations/delete_svc/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"time"

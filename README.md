@@ -34,12 +34,12 @@ This tells go-toolchain to fetch data from a specific private source.
 
 ### Project Level
 ```shell
-export GOPRIVATE=github.com/IntelXLabs-LLC/*
+export GOPRIVATE=github.com/shiroyaavish/*
 ```
 
 ### Global
 ```shell
-go env -w "GOPRIVATE=github.com/IntelXLabs-LLC/*"
+go env -w "GOPRIVATE=github.com/shiroyaavish/*"
 ```
 
 ## Implementations
