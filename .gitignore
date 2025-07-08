@@ -1,0 +1,12 @@
+data/
+*.json
+playground
+.vs_code
+.idea
+.fleet
+.zed
+.deps
+
+.env
+*.xml
+*.zip

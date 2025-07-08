@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package create_svc;
+
+option go_package = "./create_svc";
+
+service CreateClientService {
+  rpc CreateNewClient (CreateClientRequest) returns (CreateClientResponse);
+}
+
+// CreateClientRequest will be used to create client
+message CreateClientRequest {
+  string device_id = 1;
+  string operation_id = 2;
+}
+
+// CreateClientResponse will be what is returned
+message CreateClientResponse {
+  string status = 1;
+  int64 code = 2;
+  string base_64_encoded_conf = 3;
+  string operation_id = 4;
+}

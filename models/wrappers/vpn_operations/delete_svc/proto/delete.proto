@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package delete;
+
+option go_package = "./delete_svc";
+
+service DeleteClientService {
+  rpc DeleteClient (DeleteClientRequest) returns (DeleteClientResponse);
+}
+
+message DeleteClientRequest {
+  string device_id = 1;
+}
+
+message DeleteClientResponse {
+  string status = 1;
+  int64 code = 2;
+}
