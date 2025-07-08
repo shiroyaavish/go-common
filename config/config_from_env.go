@@ -3,11 +3,11 @@ package config
 import (
 	"errors"
 	"fmt"
-	"github.com/shiroyaavish/go-common/utils"
 	"reflect"
 	"strconv"
 	"strings"
 
+	"github.com/shiroyaavish/go-common/utils"
 	"github.com/spf13/viper"
 )
 
@@ -40,7 +40,7 @@ func LoadConfig(configStruct interface{}) error {
 // loadConfigRecursive traverses a struct recursively and loads configuration values from environment variables or default values.
 // It takes in the structValue to be populated, prefix for potential environment variable prefixes, and optionalFields to specify which fields are optional.
 // It returns an error if any required fields are missing.
-func loadConfigRecursive(structValue reflect.Value, prefix string, isOptional bool, optionalFields ...string) error {
+func loadConfigRecursive(structValue reflect.Value, prefix string, _ bool, optionalFields ...string) error {
 	structType := structValue.Type()
 
 	for i := 0; i < structType.NumField(); i++ {
